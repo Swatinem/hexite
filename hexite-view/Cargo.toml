@@ -1,0 +1,7 @@
+[package]
+name = "hexite-view"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hexite-defs = { path = "../hexite-defs" }
