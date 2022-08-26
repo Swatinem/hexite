@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "watch",
+      "path": "hexite-vscode",
+      "problemMatcher": "$tsc-watch",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/hexite-vscode/"
+      },
+      "presentation": {
+        "reveal": "never"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "compile",
+      "path": "hexite-vscode",
+      "group": "build"
+    }
+  ]
+}
