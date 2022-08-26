@@ -1,0 +1,11 @@
+[package]
+name = "libpoke"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+#autotools = "0.2"
+bindgen = "0.60.1"
+#cc = "1.0"
